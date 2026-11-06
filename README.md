@@ -7,13 +7,13 @@ Self-packaged [File Browser](https://github.com/filebrowser/filebrowser), suitab
 
 ### 直接下载 .deb 文件
 
-直接从 [Releases](https://github.com/wcbing-build/filebrowser-debs/releases) 下载 .deb 文件。
+直接从 [Releases](https://github.com/wcbing-deb-packager/filebrowser-debs/releases) 下载 .deb 文件。
 
 ### 添加 apt 仓库
 
 ```sh
 echo "Types: deb
-URIs: https://github.com/wcbing-build/filebrowser-debs/releases/latest/download/
+URIs: https://github.com/wcbing-deb-packager/filebrowser-debs/releases/latest/download/
 Suites: ./
 Trusted: yes" | sudo tee /etc/apt/sources.list.d/filebrowser.sources
 sudo apt update
